@@ -68,3 +68,7 @@ function openMenu(name, about, img) {
 document.getElementById('close-btn').addEventListener('click', () => {
     document.getElementById('menu').classList.remove('open');
 })
+
+document.querySelector('.information_header').addEventListener('dblclick', () => {
+    document.querySelector('#menu').classList.toggle('max-width');
+});

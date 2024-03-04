@@ -46,12 +46,16 @@ html, body {
     box-shadow: -8px 10px 89px -20px rgba(89,89,89,0.75);
     -webkit-box-shadow: -8px 10px 89px -20px rgba(89,89,89,0.75);
     -moz-box-shadow: -8px 10px 89px -20px rgba(89,89,89,0.75);
-    transition: all .5s ease-in-out;
+    transition: right .5s ease-in-out;
 }
 
 .open {
     top: 0;
     right: 0;
+}
+
+.max-width {
+    width: 100vw;
 }
 
 .information {
@@ -66,6 +70,8 @@ html, body {
     background-repeat: 'no-repeat';
     background-position: 'center';
     background-size: 'cover';
+    cursor: pointer;
+    user-select: none; 
 }
 
 .information_header p {
@@ -236,3 +242,4 @@ html, body {
     transform: translate(-50%, -50%);
     background: black;
 }
+
