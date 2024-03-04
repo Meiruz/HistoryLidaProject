@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Координаты</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        img {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map">
+        <img src="../map/img/map.png">
+    </div>
+
+    <script>
+        document.addEventListener('click', (e) => {
+            x = e.clientX
+            y = e.clientY
+
+            alert(x * 100 / document.getElementsByTagName('html')[0].clientWidth + '%, ' + y * 100 / document.getElementsByTagName('html')[0].clientHeight + '%')
+        })
+    </script>
+</body>
+</html>
