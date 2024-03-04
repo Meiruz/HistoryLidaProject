@@ -69,10 +69,21 @@ html, body {
 }
 
 .information_header p {
-    padding-left: 10px;    
+    padding: 10px;    
     font-weight: 700;
 }
 
+.information_text p::first-letter {
+    padding-left: 10px;
+}
+
+.information_text {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .information_text iframe, .information_text video {
     display: block;
@@ -82,9 +93,6 @@ html, body {
     margin: 10px auto;
 }
 
-.information_text p {
-    margin: 10px;
-}
 .close-btn {
     position: absolute;
     top: 10px;

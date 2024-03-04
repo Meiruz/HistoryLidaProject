@@ -6,8 +6,8 @@ document.getElementsByTagName("title")[0].innerHTML = groups[id-1].name
 for (var j = 0, m = groups[id-1].items.length; j < m; j++) {
     let button = document.createElement('div');
     button.classList.add('point');
-    button.style.top = groups[id-1].items[j].center[0];
-    button.style.left = groups[id-1].items[j].center[1];
+    button.style.top = `${groups[id-1].items[j].center[1]}%`;
+    button.style.left = `${groups[id-1].items[j].center[0]}%`;
     button.style.background = "url('img/" + id + ".png')"; 
 
     button.style.backgroundRepeat = 'no-repeat'
