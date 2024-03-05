@@ -28,7 +28,7 @@ for (var j = 0, m = groups[id-1].items.length; j < m; j++) {
 function openMenu(name, about, img) {
     document.querySelector('.information_header').style.minHeight = "50px";
     document.querySelector('.information_header').style.alignItems = 'center';
-    document.querySelector('.information_header').style.background = '#b3b3b3';
+    document.querySelector('.information_header').style.background = '#e5e5e5';
     document.querySelector('.inf').innerHTML = ''
     document.querySelector('.information_text').innerHTML = ''
     document.querySelector('.inf').style.color = "black";

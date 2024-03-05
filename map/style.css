@@ -36,7 +36,7 @@ html, body {
     display: block;
     position: absolute;
     z-index: 1000;
-    right: -800px;
+    right: -5000px;
     top: 0;
     background: white;
     width: 700px;
@@ -66,7 +66,7 @@ html, body {
 .information_header {
     display: flex;
     min-height: 50px;
-    background: #b3b3b3;
+    background: #e5e5e5;
     background-repeat: 'no-repeat';
     background-position: 'center';
     background-size: 'cover';
@@ -243,3 +243,10 @@ html, body {
     background: black;
 }
 
+line {
+    display: block;
+    width: 100%;
+    background: rgba(103, 103, 103, 0.799);
+    height: 2px;
+    border-radius: 100px;
+}
